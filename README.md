@@ -73,7 +73,7 @@ exit
 ```bash
 cd client
 nix-shell
-cabal build
+cabal --config-file=cabal.config build
 ...
 exit
 ```
